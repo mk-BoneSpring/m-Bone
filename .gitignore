@@ -12,10 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Local cache & temp
+.npm-cache/
+.vercel-tmp/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
+.history
 .DS_Store
 *.suo
 *.ntvs*
